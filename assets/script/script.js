@@ -53,11 +53,40 @@ form.addEventListener('submit', function(e) {
             form.reset();
             setTimeout(() => {
                 result.style.display = "none";
-            }, 5000);
+            }, 4000);
         });
     }
 });
 
+
+
+//botão do dark mode / light mode
+let btnChangeTheme = document.getElementById("btnChangeTheme");
+
+btnChangeTheme.addEventListener("click", e =>{
+    switchTheme();0
+})
+
+
+const switchTheme = () => {
+    //Get root element and data-theme value
+        const rootElem = document.documentElement
+        let dataTheme = rootElem.getAttribute('data-theme'),
+            newTheme
+    
+        newTheme = (dataTheme === 'light') ? 'dark' : 'light'
+    
+        //set the new HTML attribute
+        rootElem.setAttribute('data-theme', newTheme)
+    
+        //set the new local storage item
+        localStorage.setItem('them', newTheme)
+}
+
+
+
+//Quando reload página volta ao topo.
+window.scrollTo(0, 0);
 
 
 
