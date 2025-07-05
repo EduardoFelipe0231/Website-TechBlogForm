@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/style/main.css">
+
+
+    <title>TechBlog | Home</title>
+</head>
+<body>
+    <section class="section_banner">
+        <div class="section_banner_main container">
+            <div class="main_rigth">
+                <h1>
+                    Encontre os <span>melhores artigos</span> de programação em um só lugar
+                </h1>
+                <p>
+                    Explore o topo da programação em um só lugar! Seu destino único para dicas e tendências atuais.
+                </p>
+                <a href="#">
+                    <button>Buscar Artigos</button>
+                </a>
+            </div>
+            <div class="main_left">
+                <img src="assets/images/Banner.png" alt="Banner TechBlog">
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <div class="main-boxes container">
+            <h2>Artigos recomendados</h2>
+
+            <div class="main-boxes_container">
+                <!-- Box --> 
+                <a href="https://www.google.com" target="_blank">
+                    <div class="main-boxes_items">
+                        <div class="box_img">
+                            <img src="assets/images/article_01.jpg" alt="Article 01">
+                        </div>
+                        <div class="box_texts">
+                            <h3 class="box_heading">
+                            O que é linguagem de programação? Conheça as principais
+                            </h3>
+                            <p class="box_descrip">
+                                Uma das mais populares vertentes da tecnologia da informação, a área de programação
+                            </p>
+                        </div>
+                    </div>
+                </a>
+                <!-- Box --> 
+                <div class="main-boxes_items">
+                    <div class="box_img">
+                        <img src="assets/images/article_02.jpg" alt="Article 01">
+                    </div>
+                    <div class="box_texts">
+                        <h3 class="box_heading">
+                        Python: por que a linguagem é tão usada para Data Science e finanças?
+                        </h3>
+                        <p class="box_descrip">
+                            O mundo da programação conta com algumas opções de linguagem para
+                        </p>
+                    </div>
+                </div>
+                <!-- Box --> 
+                <div class="main-boxes_items">
+                    <div class="box_img">
+                        <img src="assets/images/article_03.jpg" alt="Article 01">
+                    </div>
+                    <div class="box_texts">
+                        <h3 class="box_heading">
+                        GitHub tem receita de US$ 1 bilhão e 90 milhões de usuários
+                        </h3>
+                        <p class="box_descrip">
+                            O popular serviço de repositório de código GitHub foi adquirido pela microsoft
+                        </p>
+                    </div>
+                </div>
+                <!-- Box --> 
+                <div class="main-boxes_items">
+                    <div class="box_img">
+                        <img src="assets/images/article_04.jpg" alt="Article 01">
+                    </div>
+                    <div class="box_texts">
+                        <h3 class="box_heading">
+                        15 comandos no GIT que os desenvolvedores precisam saber
+                        </h3>
+                        <p class="box_descrip">
+                            Dominar os comandos GIT é uma habilidade que se conquista com o mercado
+                        </p>
+                    </div>
+                </div>
+                <!-- Box --> 
+                <div class="main-boxes_items">
+                    <div class="box_img">
+                        <img src="assets/images/article_05.jpg" alt="Article 01">
+                    </div>
+                    <div class="box_texts">
+                        <h3 class="box_heading">
+                        GIT e GitHub: o que são e quais as diferenças entre eles?
+                        </h3>
+                        <p class="box_descrip">
+                            Git e GibHub são dois softwares de controle de versão essenciais para desenvolvedores
+                        </p>
+                    </div>
+                </div>
+                <!-- Box --> 
+                <div class="main-boxes_items">
+                    <div class="box_img">
+                        <img src="assets/images/article_06.jpg" alt="Article 01">
+                    </div>
+                    <div class="box_texts">
+                        <h3 class="box_heading">
+                        GitHub Copilot ganha integração com GPT-4 e interface conversacional
+                        </h3>
+                        <p class="box_descrip">
+                            O GitHub Copilot, ferramenta de desenvolvimento baseada em IA que garante o uso
+                        </p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </main>
+
+    <section class="form_section">
+        <div class="form_main container">
+            <h3 class="form_main_heading">Entre em contato</h3>
+
+            <form id="form_contact" action="https://api.web3forms.com/submit" method="POST">
+
+                <input type="hidden" name="access_key" value="7f7270f4-64ce-4877-b678-5233b5571c1b">
+
+
+                <input type="text" name="text" id="name" placeholder="Nome" autocomplete="off" >
+                <input type="email" name="email" id="email" placeholder="E-mail" autocomplete="off" >
+                <textarea name="textarea" id="message" rows="7" cols="33" placeholder="Assunto.." autocomplete="off"></textarea>
+                <button class="form_main_button" id="submit">Entrar em contato</button>
+            </form>
+        </div>
+    </section>
+
+    <p  class="errorDefault"></p>
+
+    <!-- JS -->
+    <script src="assets/script/script.js"></script>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+</body>
+</html>
