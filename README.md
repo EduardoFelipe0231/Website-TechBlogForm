@@ -1,4 +1,4 @@
-<h1 align="center"> Projeto Doação de presentes  </h1>
+<h1 align="center"> Projeto TechBlog  </h1>
 
 <h2> Página de blog, com links de artigos ativos, modo darkmode, responsividade, e botão de compartilhamento </h2>
 
@@ -23,4 +23,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 📸 Demonstração
 
 Cliquei aqui para ver a [Demo](https://eduardofelipe0231.github.io/Website-TechBlogForm/) do projeto.
-#teste 
+
+Site baseado na desafio codelandia #03
