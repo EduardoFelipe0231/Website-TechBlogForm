@@ -302,13 +302,13 @@ textarea.errorInput {
 .error {
     background-color: var(--notification-bg-error);
     position: fixed;
-    top: 10rem;
+    top: 5rem;
     font-size: 1.7rem;
     left: 50%;
     transform: translateX(-50%);
     text-transform: capitalize;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    padding: 2rem 3rem;
+    padding: 2rem 5rem;
     border-radius: .5rem;
     font-size: 1.5rem;
     color: var(--notification-color);
@@ -318,13 +318,13 @@ textarea.errorInput {
 .sucess {
     background-color: var(--notification-bg-sucess);
     position: fixed;
-    top: 10rem;
+    top: 5rem;
     font-size: 1.7rem;
     left: 50%;
     transform: translateX(-50%);
     text-transform: capitalize;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    padding: 2rem 3rem;
+    padding: 2rem 5rem;
     border-radius: .5rem;
     font-size: 1.5rem;
     color: var(--notification-color);
@@ -335,13 +335,13 @@ textarea.errorInput {
 .alert {
     background-color: var(--notification-bg-alert);
     position: fixed;
-    top: 10rem;
+    top: 5rem;
     font-size: 1.7rem;
     left: 50%;
     transform: translateX(-50%);
     text-transform: capitalize;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    padding: 2rem 3rem;
+    padding: 2rem 5rem;
     border-radius: .5rem;
     font-size: 1.5rem;
     color: var(--notification-color);
