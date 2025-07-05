@@ -1,3 +1,5 @@
+// -------------------------------------------------------------------- FORMULÁRIO -----------------------
+
 let form = document.getElementById('form_contact');
 let result = document.querySelector('.errorDefault');
 let inputName = document.getElementById("name");
@@ -60,7 +62,8 @@ form.addEventListener('submit', function(e) {
 
 
 
-//botão do dark mode / light mode
+// -------------------------------------------------------------------- DARK MODE / LIGHT MODE -----------------------
+
 let btnChangeTheme = document.getElementById("btnChangeTheme");
 
 btnChangeTheme.addEventListener("click", e =>{
@@ -84,9 +87,40 @@ const switchTheme = () => {
 }
 
 
+// -------------------------------------------------------------------- RELOAD PAGE TO THE TOP F5-----------------------
 
 //Quando reload página volta ao topo.
 window.scrollTo(0, 0);
+
+
+
+// -------------------------------------------------------------------- BUTTONS SHARE - FOOTER -----------------------
+
+//get button
+let btnWhatsapp = document.querySelector(".fa-whatsapp");
+let btnTwitter = document.querySelector(".fa-x-twitter");
+
+// set cofing page and message.
+const pageURL = location.href
+const message = `Este é um incrível artigo, leve apenas 5 minutos para ler.`
+
+//API share
+const whatsappApi = `https://wa.me/?text=${pageURL}`;
+const twtitterApi = `https://x.com/intent/post?text=${pageURL}`;
+
+
+//button click
+btnWhatsapp.addEventListener("click", () => {
+    window.open(url=whatsappApi,targe='blank')
+})
+
+
+btnTwitter.addEventListener("click", () =>{
+    window.open(url=twtitterApi, target='blank')
+})
+
+
+
 
 
 
